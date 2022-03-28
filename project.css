@@ -1,0 +1,113 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:  'Outfit', sans-serif;
+
+}
+
+#nft-img-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    border-radius: 5px;
+    background-color: rgb(161, 252, 252);
+    }
+
+/* #nft-img{
+    margin-top: 1%;
+} */
+
+#card{
+    background-color: hsl(216, 50%, 16%);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: min-content;
+    
+}
+
+#text-nft{
+    width: fit-content;
+    margin-bottom: 20px;
+    color:white;
+    font-size: 22px;
+    
+}
+
+#text-nft-info{
+    margin-bottom: 25px;
+    padding-right: 15px;
+    color:hsl(215, 51%, 70%);
+}
+
+#text-price{
+    display: flex;
+    margin-bottom: 15px;
+    color:hsl(178, 100%, 50%);
+}
+
+#price-img{
+    width: auto;
+    max-height: 20px;
+}
+
+#price{
+    margin-left: 5px;
+}
+
+#text-time{
+    margin-bottom: 15px;
+    display: flex;
+    padding-left: 110px;
+    color:hsl(216, 50%, 70%)
+}
+
+#text-author{  /*  Creation of */
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    color:hsl(215, 51%, 70%);
+}
+#author{  /*Juyles Wyvern */
+    padding-left: 15px;
+    align-items: center;
+    color: white;
+    display: flex;
+}
+#author-img{
+    display: flex;
+    height:50px;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 1000px;
+}
+
+#text-nft:hover, #author:hover{
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+#icon-view
+{
+    position: absolute;
+    opacity: 0;
+}
+
+#nft-img-container:hover #icon-view{
+    opacity: 1;
+    cursor: pointer;
+}
+
+#nft-img-container:hover #nft-img{
+    opacity: 0.3;
+    cursor: pointer;
+}
+
